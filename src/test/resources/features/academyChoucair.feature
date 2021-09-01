@@ -1,3 +1,4 @@
+
 @stories
 Feature: Academy Choucair
   As a user, I want to learn how to automate in screamplay at the Choucair Academy with the automation course
@@ -8,8 +9,8 @@ Feature: Academy Choucair
     | YourUser   | YourPassword |
     When he search for the course on the Choucair Academy platform
     | strCourse        |
-    | Metodolgía Bancolombia |
+    | Bancolombia Methodology |
     Then he finds the course called
 
     | strCourse        |
-    | Metodología Bancolombia |
+    | Bancolombia Methodology |

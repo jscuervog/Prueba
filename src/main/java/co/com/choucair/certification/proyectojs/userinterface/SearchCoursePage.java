@@ -1,16 +1,15 @@
 package co.com.choucair.certification.proyectojs.userinterface;
 
-import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 import org.openqa.selenium.By;
 
-public class SearchCoursePage extends PageObject {
-    public static final Target BUTTON_UC = Target.the("Selecciona la universidad choucair")
-            .located(By.xpath("//div[@id='universidad']//strong"));
-    public static final Target INPUT_COURSE = Target.the("Buscar el curso")
+public class SearchCoursePage {
+    public static final Target BUTTON_UC = Target.the("Select choucair university")
+            .located(By.xpath("//div[@id='university']//strong"));
+    public static final Target INPUT_COURSE = Target.the("find the course")
             .located(By.id("coursesearchbox"));
-    public static final Target BUTTON_GO = Target.the("Da click para buscar el curso")
+    public static final Target BUTTON_GO = Target.the("click to search for the course")
             .located(By.id("//button[@class='btn btn-secondary']"));
-    public static final Target SELECT_COURSE = Target.the("Da click para buscar el curso")
-            .located(By.xpath("//h4[contains(text(), 'Recursos Automatización Bancolombia')]"));
+    public static final Target SELECT_COURSE = Target.the("click to search the course")
+            .located(By.xpath("//h4[contains(text(), 'bancolombia Automation Resources')]"));
 }
